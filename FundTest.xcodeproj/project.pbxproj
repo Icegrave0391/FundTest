@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		0814EDFD2130242C008D8DD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814EDFC2130242C008D8DD2 /* AppDelegate.m */; };
-		0814EE002130242C008D8DD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814EDFF2130242C008D8DD2 /* ViewController.m */; };
 		0814EE032130242C008D8DD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0814EE012130242C008D8DD2 /* Main.storyboard */; };
 		0814EE052130242D008D8DD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0814EE042130242D008D8DD2 /* Assets.xcassets */; };
 		0814EE082130242D008D8DD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0814EE062130242D008D8DD2 /* LaunchScreen.storyboard */; };
 		0814EE0B2130242D008D8DD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814EE0A2130242D008D8DD2 /* main.m */; };
 		0814EE152130242D008D8DD2 /* FundTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814EE142130242D008D8DD2 /* FundTestTests.m */; };
 		0814EE202130242D008D8DD2 /* FundTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814EE1F2130242D008D8DD2 /* FundTestUITests.m */; };
+		0814EE30213024E3008D8DD2 /* DataBaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814EE2F213024E3008D8DD2 /* DataBaseTool.m */; };
+		0814EE362130254E008D8DD2 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814EE352130254E008D8DD2 /* User.m */; };
+		0814EE3921302685008D8DD2 /* Organization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814EE3821302685008D8DD2 /* Organization.m */; };
+		0814EE3D2130E90D008D8DD2 /* MeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814EE3C2130E90D008D8DD2 /* MeController.m */; };
+		0814EE402131297C008D8DD2 /* TeamController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814EE3F2131297C008D8DD2 /* TeamController.m */; };
+		0814EE4321312988008D8DD2 /* ChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814EE4221312988008D8DD2 /* ChatController.m */; };
+		0814EE4921312E0B008D8DD2 /* CameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814EE4821312E0B008D8DD2 /* CameraController.m */; };
+		54552CDC62E99382E668FAC0 /* libPods-FundTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 314988C8CBED22A60EDD5515 /* libPods-FundTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +45,6 @@
 		0814EDF82130242C008D8DD2 /* FundTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FundTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0814EDFB2130242C008D8DD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0814EDFC2130242C008D8DD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0814EDFE2130242C008D8DD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0814EDFF2130242C008D8DD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0814EE022130242C008D8DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0814EE042130242D008D8DD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0814EE072130242D008D8DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,23 @@
 		0814EE1B2130242D008D8DD2 /* FundTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FundTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0814EE1F2130242D008D8DD2 /* FundTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FundTestUITests.m; sourceTree = "<group>"; };
 		0814EE212130242D008D8DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0814EE2E213024E3008D8DD2 /* DataBaseTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataBaseTool.h; sourceTree = "<group>"; };
+		0814EE2F213024E3008D8DD2 /* DataBaseTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataBaseTool.m; sourceTree = "<group>"; };
+		0814EE342130254E008D8DD2 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		0814EE352130254E008D8DD2 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		0814EE3721302685008D8DD2 /* Organization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Organization.h; sourceTree = "<group>"; };
+		0814EE3821302685008D8DD2 /* Organization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Organization.m; sourceTree = "<group>"; };
+		0814EE3B2130E90D008D8DD2 /* MeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeController.h; sourceTree = "<group>"; };
+		0814EE3C2130E90D008D8DD2 /* MeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeController.m; sourceTree = "<group>"; };
+		0814EE3E2131297C008D8DD2 /* TeamController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeamController.h; sourceTree = "<group>"; };
+		0814EE3F2131297C008D8DD2 /* TeamController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamController.m; sourceTree = "<group>"; };
+		0814EE4121312988008D8DD2 /* ChatController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatController.h; sourceTree = "<group>"; };
+		0814EE4221312988008D8DD2 /* ChatController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatController.m; sourceTree = "<group>"; };
+		0814EE4721312E0B008D8DD2 /* CameraController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraController.h; sourceTree = "<group>"; };
+		0814EE4821312E0B008D8DD2 /* CameraController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraController.m; sourceTree = "<group>"; };
+		314988C8CBED22A60EDD5515 /* libPods-FundTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FundTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B242CDC5EEE9AD5E1BB605 /* Pods-FundTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FundTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-FundTest/Pods-FundTest.release.xcconfig"; sourceTree = "<group>"; };
+		B3C7EF5FCEE9A856A8B8A6E3 /* Pods-FundTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FundTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FundTest/Pods-FundTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54552CDC62E99382E668FAC0 /* libPods-FundTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +108,8 @@
 				0814EE132130242D008D8DD2 /* FundTestTests */,
 				0814EE1E2130242D008D8DD2 /* FundTestUITests */,
 				0814EDF92130242C008D8DD2 /* Products */,
+				40C9562C3FC96A5F0AB22213 /* Pods */,
+				96EB5333B77ED21BFCDB18E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +126,18 @@
 		0814EDFA2130242C008D8DD2 /* FundTest */ = {
 			isa = PBXGroup;
 			children = (
+				0814EE3B2130E90D008D8DD2 /* MeController.h */,
+				0814EE3C2130E90D008D8DD2 /* MeController.m */,
+				0814EE3E2131297C008D8DD2 /* TeamController.h */,
+				0814EE3F2131297C008D8DD2 /* TeamController.m */,
+				0814EE4121312988008D8DD2 /* ChatController.h */,
+				0814EE4221312988008D8DD2 /* ChatController.m */,
+				0814EE4721312E0B008D8DD2 /* CameraController.h */,
+				0814EE4821312E0B008D8DD2 /* CameraController.m */,
+				0814EE2D213024CE008D8DD2 /* Tools */,
 				0814EDFB2130242C008D8DD2 /* AppDelegate.h */,
 				0814EDFC2130242C008D8DD2 /* AppDelegate.m */,
-				0814EDFE2130242C008D8DD2 /* ViewController.h */,
-				0814EDFF2130242C008D8DD2 /* ViewController.m */,
+				0814EE3A2130E6B5008D8DD2 /* Model */,
 				0814EE012130242C008D8DD2 /* Main.storyboard */,
 				0814EE042130242D008D8DD2 /* Assets.xcassets */,
 				0814EE062130242D008D8DD2 /* LaunchScreen.storyboard */,
@@ -132,6 +165,43 @@
 			path = FundTestUITests;
 			sourceTree = "<group>";
 		};
+		0814EE2D213024CE008D8DD2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0814EE2E213024E3008D8DD2 /* DataBaseTool.h */,
+				0814EE2F213024E3008D8DD2 /* DataBaseTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0814EE3A2130E6B5008D8DD2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0814EE342130254E008D8DD2 /* User.h */,
+				0814EE352130254E008D8DD2 /* User.m */,
+				0814EE3721302685008D8DD2 /* Organization.h */,
+				0814EE3821302685008D8DD2 /* Organization.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40C9562C3FC96A5F0AB22213 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3C7EF5FCEE9A856A8B8A6E3 /* Pods-FundTest.debug.xcconfig */,
+				76B242CDC5EEE9AD5E1BB605 /* Pods-FundTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96EB5333B77ED21BFCDB18E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				314988C8CBED22A60EDD5515 /* libPods-FundTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0814EE242130242D008D8DD2 /* Build configuration list for PBXNativeTarget "FundTest" */;
 			buildPhases = (
+				32D2CE70D890D58A796B7763 /* [CP] Check Pods Manifest.lock */,
 				0814EDF42130242C008D8DD2 /* Sources */,
 				0814EDF52130242C008D8DD2 /* Frameworks */,
 				0814EDF62130242C008D8DD2 /* Resources */,
@@ -257,14 +328,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32D2CE70D890D58A796B7763 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FundTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0814EDF42130242C008D8DD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0814EE002130242C008D8DD2 /* ViewController.m in Sources */,
+				0814EE3921302685008D8DD2 /* Organization.m in Sources */,
+				0814EE4921312E0B008D8DD2 /* CameraController.m in Sources */,
+				0814EE402131297C008D8DD2 /* TeamController.m in Sources */,
+				0814EE3D2130E90D008D8DD2 /* MeController.m in Sources */,
+				0814EE362130254E008D8DD2 /* User.m in Sources */,
+				0814EE30213024E3008D8DD2 /* DataBaseTool.m in Sources */,
 				0814EE0B2130242D008D8DD2 /* main.m in Sources */,
 				0814EDFD2130242C008D8DD2 /* AppDelegate.m in Sources */,
+				0814EE4321312988008D8DD2 /* ChatController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,11 +529,13 @@
 		};
 		0814EE252130242D008D8DD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C7EF5FCEE9A856A8B8A6E3 /* Pods-FundTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q64PWL267Z;
 				INFOPLIST_FILE = FundTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +548,13 @@
 		};
 		0814EE262130242D008D8DD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76B242CDC5EEE9AD5E1BB605 /* Pods-FundTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q64PWL267Z;
 				INFOPLIST_FILE = FundTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

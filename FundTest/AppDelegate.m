@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "MeController.h"
+#import "User.h"
+#import "Organization.h"
+#import "DataBaseTool.h"
+#import "TeamController.h"
+#import "ChatController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +23,27 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] ;
+    [self.window makeKeyAndVisible] ;
+    self.window.backgroundColor = [UIColor whiteColor] ;
+    
+    UITabBarController * tabCtrl = [[UITabBarController alloc] init] ;
+    self.window.rootViewController = tabCtrl ;
+    
+    MeController * meCtrl = [[MeController alloc] init] ;
+    TeamController * teamCtrl = [[TeamController alloc] init] ;
+    ChatController * chatCtrl = [[ChatController alloc] init] ;
+    UINavigationController * teamNav = [[UINavigationController alloc] initWithRootViewController:teamCtrl] ;
+    UINavigationController * chatNav = [[UINavigationController alloc] initWithRootViewController:chatCtrl] ;
+    UINavigationController * meNav = [[UINavigationController alloc] initWithRootViewController:meCtrl] ;
+    tabCtrl.viewControllers = @[teamNav, chatNav, meNav] ;
+    
+    teamNav.tabBarItem.title = @"团队" ;
+    teamNav.tabBarItem.image = [UIImage imageNamed:@"tab1"] ;
+    chatNav.tabBarItem.title = @"交易" ;
+    chatNav.tabBarItem.image = [UIImage imageNamed:@"tab2"] ;
+    meNav.tabBarItem.title = @"我" ;
+    meNav.tabBarItem.image = [UIImage imageNamed:@"tab3"] ;
     return YES;
 }
 
