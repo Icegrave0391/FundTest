@@ -21,6 +21,7 @@
 		0814EE402131297C008D8DD2 /* TeamController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814EE3F2131297C008D8DD2 /* TeamController.m */; };
 		0814EE4321312988008D8DD2 /* ChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814EE4221312988008D8DD2 /* ChatController.m */; };
 		0814EE4921312E0B008D8DD2 /* CameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814EE4821312E0B008D8DD2 /* CameraController.m */; };
+		0814EE4C2131482F008D8DD2 /* StudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0814EE4B2131482F008D8DD2 /* StudioController.m */; };
 		54552CDC62E99382E668FAC0 /* libPods-FundTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 314988C8CBED22A60EDD5515 /* libPods-FundTest.a */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,8 @@
 		0814EE4221312988008D8DD2 /* ChatController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatController.m; sourceTree = "<group>"; };
 		0814EE4721312E0B008D8DD2 /* CameraController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraController.h; sourceTree = "<group>"; };
 		0814EE4821312E0B008D8DD2 /* CameraController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraController.m; sourceTree = "<group>"; };
+		0814EE4A2131482F008D8DD2 /* StudioController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudioController.h; sourceTree = "<group>"; };
+		0814EE4B2131482F008D8DD2 /* StudioController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudioController.m; sourceTree = "<group>"; };
 		314988C8CBED22A60EDD5515 /* libPods-FundTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FundTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B242CDC5EEE9AD5E1BB605 /* Pods-FundTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FundTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-FundTest/Pods-FundTest.release.xcconfig"; sourceTree = "<group>"; };
 		B3C7EF5FCEE9A856A8B8A6E3 /* Pods-FundTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FundTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FundTest/Pods-FundTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +133,8 @@
 				0814EE3C2130E90D008D8DD2 /* MeController.m */,
 				0814EE3E2131297C008D8DD2 /* TeamController.h */,
 				0814EE3F2131297C008D8DD2 /* TeamController.m */,
+				0814EE4A2131482F008D8DD2 /* StudioController.h */,
+				0814EE4B2131482F008D8DD2 /* StudioController.m */,
 				0814EE4121312988008D8DD2 /* ChatController.h */,
 				0814EE4221312988008D8DD2 /* ChatController.m */,
 				0814EE4721312E0B008D8DD2 /* CameraController.h */,
@@ -361,6 +366,7 @@
 				0814EE362130254E008D8DD2 /* User.m in Sources */,
 				0814EE30213024E3008D8DD2 /* DataBaseTool.m in Sources */,
 				0814EE0B2130242D008D8DD2 /* main.m in Sources */,
+				0814EE4C2131482F008D8DD2 /* StudioController.m in Sources */,
 				0814EDFD2130242C008D8DD2 /* AppDelegate.m in Sources */,
 				0814EE4321312988008D8DD2 /* ChatController.m in Sources */,
 			);

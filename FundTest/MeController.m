@@ -67,7 +67,8 @@
 //        [[DataBaseTool sharedDBTool] recordOrganization:org] ;
 //    }
 //
-//
+
+    [[User sharedUser] setUserWithCurrentUser:[[DataBaseTool sharedDBTool] getUserFromUserName:@"why1"]] ;
     
     [self.userNameLabel setText:[User sharedUser].userName] ;
     [self.avator setImage:[User sharedUser].avator] ;
